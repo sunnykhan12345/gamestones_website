@@ -1,0 +1,106 @@
+/* login css */
+
+#login {
+    background: rgb(2, 0, 36);
+}
+
+input {
+    border: 1px solid rgb(2, 0, 36);
+}
+
+.login {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 6.25rem 0;
+    /* background-color: #B6E388; */
+
+
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.card {
+    padding: 3rem 2rem;
+
+}
+
+.card .card-body input {
+    width: 298px;
+    height: 32px;
+    margin: 1rem;
+
+
+}
+
+.card .card-body input :focus {
+    background-color: var(--brown-color);
+}
+
+.card .card-body .login-btn {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    color: var(--brown-color);
+
+}
+
+
+.login-btn a {
+    text-decoration: none;
+}
+
+.login-btn a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--brown-color);
+}
+
+.alt-login .facebook {
+    background-color: #1D5D9B;
+    color: var(--white-color);
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.alt-login .google {
+
+    background-color: var(--light-red);
+    padding: 1rem 0;
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+
+.alt-login .facebook:hover,
+.alt-login .google:hover {
+    opacity: 0.8;
+}
+
+.order-red {
+    margin: 2rem 0;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(112, 255, 0, 0.4206057422969187) 10%, rgba(9, 121, 60, 1) 94%);
+    border: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.order-red:hover {
+    background-color: var(--light-red);
+    color: var(--white-color);
+}

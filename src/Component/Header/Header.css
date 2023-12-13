@@ -1,0 +1,131 @@
+/* Menu Bar CSS */
+
+/* Root Variables for Colors and Font Family */
+:root {
+    --light-black: #333;
+    --light-white: #f7f7f7;
+    --light-red: #e3000e;
+    --light-white: #F7F7F7;
+    --light-gray: #f6f9fa;
+    --light-gray-2: #dddddd;
+    --white-color: #fff;
+    --yellow-color: #4f90ff;
+    --gray-color: #757575;
+    --brown-color: #6f5e4d;
+    --bg-coffee: #642f21;
+    --yellow: #f7be27;
+    --popines-font: 'Poppins', sans-serif;
+    /* Font Family */
+}
+
+/* Navbar Styling */
+.navbar {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    z-index: 5;
+}
+
+#header .navbar.sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: var(--white);
+    color: var(--light-black);
+    transition: all 15ms ease-in-out;
+    animation-name: stickyTransition;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    box-shadow: 0px 2px 30px rgba(96, 96, 96, 0.1);
+}
+
+/* Keyframe Animation for Sticky Transition */
+@keyframes stickyTransition {
+    0% {
+        opacity: 0;
+        transform: translate3d(1, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* Navigation Styling */
+.nav {
+    box-shadow: 2px 3px rgba(96, 96, 96, 0.1);
+    background: #EEEEEE;
+    margin-bottom: 30px;
+}
+
+/* Logo Styling */
+.logo img {
+    width: auto;
+    max-width: inherit;
+    height: 5rem;
+}
+
+/* Location Selection Styling */
+.selection select {
+    width: 260px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.selection option {
+    border: 1px solid blue;
+}
+
+/* Responsive Design for Location Selection */
+@media(max-width:992px) {
+    .selection {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .selection {
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+    .selection {
+        display: none;
+    }
+}
+
+/* Search Form Styling */
+form .serch {
+    width: 20rem;
+    border: 1px solid black;
+}
+
+/* Responsive Design for Search Form */
+@media(max-width:500px) {
+    form .serch {
+        width: 10rem;
+        height: 40px;
+    }
+}
+
+/* Focus Styling for Search Form */
+form .serch:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--light-red);
+    padding: 2px;
+}
+
+/* Styling for Navbar Toggle Button */
+#toggler {
+    border: none;
+}
+
+#toggler:focus {
+    outline: none;
+    box-shadow: none;
+}

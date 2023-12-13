@@ -1,0 +1,109 @@
+/* section b css */
+
+/* Define custom colors and variables */
+.menu_stone {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #D3D3D3;
+    /* Set background color for the section */
+}
+
+/* Apply a smooth transition effect to the card image */
+.menu_stone .card-img-top {
+    transition: all 500ms ease-in-out;
+}
+
+/* Style for the heading 2 element */
+.menu_stone h2 {
+    font-size: 3.5rem;
+    color: var(--light-red);
+    /* Use custom color variable for text */
+}
+
+/* Style for the paragraph element within the section */
+.menu_stone #para {
+    color: var(--gray-color);
+    padding: 10px 100px;
+    font-size: 19px;
+}
+
+/* Style for the wishlist span element */
+.menu_stone .wishlist span {
+    color: var(--gray-color);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Change color on hover for the wishlist span */
+.menu_stone .wishlist span:hover {
+    color: var(--light-red);
+}
+
+/* Style for the card title element */
+.menu_stone .card-title {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style for the card text element */
+.menu_stone .card-text {
+    color: var(--gray-color);
+    font-size: 15px;
+}
+
+/* Style for the menu price element */
+.menu_stone .menu_price {
+    background-color: var(--bg-cofee);
+    /* Use custom color variable */
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+/* Style for the menu price h5 element */
+.menu_stone .menu_price h5 {
+    color: var(--yellow);
+    font-size: 1rem;
+}
+
+/* Hover effect for scaling the card image on hover */
+.menu_stone .card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+/* Style for the add to cart anchor element */
+.menu_stone .add_to_card a {
+    background: #fff;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    opacity: 1;
+    transform: translateY(100px);
+    transition: all 500ms ease-in-out;
+    text-decoration: none;
+}
+
+/* Hover effect for the add to cart anchor element */
+.menu_stone .card:hover .add_to_card a {
+    transform: translateY(0px);
+    opacity: 1;
+    color: white;
+    background-color: var(--bg-cofee);
+    /* Use custom color variable */
+}
+
+/* Style for the span within the add to cart element on hover */
+.menu_stone .card:hover .add_to_card span {
+    color: var(--yellow);
+}
+
+/* Style for the icon within the add to cart element on hover */
+.menu_stone .card:hover .add_to_card .icon {
+    color: ;
+    /* Color value is missing, please provide a color value */
+}

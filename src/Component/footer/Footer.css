@@ -1,0 +1,132 @@
+/* Footer CSS */
+
+:root {
+    /* Color */
+    --light-black: #333;
+    --light-white: #f7f7f7;
+    --light-red: #e3000e;
+    --light-white: #F7F7F7;
+    --light-gray: #f6f9fa;
+    --light-gray-2: #dddddd;
+    --white-color: #fff;
+    --yellow-color: #4f90ff;
+    --gray-color: #757575;
+    --brown-color: #6f5e4d;
+    --bg-cofee: #642f21;
+    --yellow: #f7be27;
+
+    /* Font Family */
+    --popines-font: 'Poppins', sans-serif;
+}
+
+/* Footer Styling */
+footer {
+    padding-top: 80px;
+    background-color: #642f21;
+    /* Dark brown background color */
+    color: white;
+}
+
+footer h5 {
+    color: white;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+footer p {
+    margin-bottom: 3px;
+    font-size: 1rem;
+    color: white;
+}
+
+footer .calling {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/* Styling for the copyright section */
+footer .copy_right {
+    box-shadow: 10px 10px 10px 10px gray;
+    margin-top: 60px;
+    padding: 20px 0;
+}
+
+footer .copy_right a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .copy_right a:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+footer .copy_right ul li span {
+    color: var(--yellow);
+    font-weight: 600;
+    position: relative;
+}
+
+footer .copy_right ul li {
+    font-size: 1rem;
+    padding: 0 10px;
+    border-left: 1px solid gray;
+}
+
+footer .copy_right ul li:first-child {
+    border-left: none;
+}
+
+/* Styling for social media icons */
+footer .social_media_icon a p {
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 30px;
+    line-height: 1;
+    color: var(--light-red);
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .social_media_icon a p:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #e3000e;
+}
+
+/* Scroll to top button styling */
+.scroll_top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    width: 2.7rem;
+    height: 2.7rem;
+    line-height: 2rem;
+    text-align: center;
+    background: var(--light-red);
+    border-radius: 100%;
+}
+
+.scroll_top:hover {
+    opacity: 0.8;
+}
+
+.scroll_top p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
