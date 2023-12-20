@@ -24,6 +24,7 @@
     width: 100%;
     background: transparent;
     z-index: 5;
+    box-shadow: 0 1px 3px -2px black;
 }
 
 #header .navbar.sticky {
@@ -71,12 +72,14 @@
 .selection select {
     width: 260px;
     height: 40px;
-    border: 1px solid blue;
-    border-radius: 5px;
+    border: 1px solid #626262;
+    border-radius: 75px;
+    color: #626262;
 }
 
 .selection option {
-    border: 1px solid blue;
+    border: 1px solid #626262;
+    border-radius: 75px;
 }
 
 /* Responsive Design for Location Selection */
@@ -94,14 +97,15 @@
 
 @media(max-width:576px) {
     .selection {
-        display: none;
+        /* display: none; */
     }
 }
 
 /* Search Form Styling */
 form .serch {
     width: 20rem;
-    border: 1px solid black;
+    border: 1px solid #626262;
+    border-radius: 75px;
 }
 
 /* Responsive Design for Search Form */
@@ -110,7 +114,19 @@ form .serch {
         width: 10rem;
         height: 40px;
     }
+   
 }
+
+/* @media(max-width:390px){
+    .logo .order-now {
+        background-color: #333;
+        display: none;
+    }
+    .post button{
+        background: transparent;
+        display: none;
+    }
+} */
 
 /* Focus Styling for Search Form */
 form .serch:focus {
@@ -128,4 +144,39 @@ form .serch:focus {
 #toggler:focus {
     outline: none;
     box-shadow: none;
+}
+
+.lg{
+    width: 120px;
+    height: 40px;
+    border-radius: 75px;
+    border: 1px solid #626262;
+    color: #626262;
+}
+.plus{
+    width: 100px;
+    height: 40px;
+    border-radius: 70px;
+    border-top: 5px solid #52D3D8;
+    border-bottom: 5px solid orange;
+    border-left: 5px solid yellow;
+    border-right: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #626262;
+    
+}
+.plus:hover{
+    opacity: 0.6;
+}
+
+.selection {
+    border: 1px solid #626262;
+    border-radius: 75px;
 }

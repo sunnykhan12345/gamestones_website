@@ -113,12 +113,16 @@ footer .social_media_icon a p:hover {
     right: 30px;
     bottom: 30px;
     cursor: pointer;
+    display: flex;
     width: 2.7rem;
     height: 2.7rem;
     line-height: 2rem;
     text-align: center;
     background: var(--light-red);
     border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .scroll_top:hover {

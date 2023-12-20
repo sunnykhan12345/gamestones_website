@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Button, Container, Form, Nav, Navbar, NavLink } from "react-bootstrap";
 import "./Header.css";
-import logo from "../../images/logo.png";
+// import logo from "../../images/logo.png";
+import logo from "../../images/log.png"
 import { Link } from "react-router-dom";
 import { BsSearchHeart } from "react-icons/bs";
 
@@ -50,14 +51,14 @@ const Header = () => {
                 className="me-2 serch"
                 aria-label="Search"
               />
-              <Link to="login" className="me-2">
-                <Button className="order-now login">Login</Button>
+              <Link to="login" className="me-lg-2 me-0">
+                <button className="lg">Login</button>
               </Link>
-              <Link to="signin" className="me-3">
-                <Button className="order-now login">Sign up</Button>
+              <Link to="signin" className="me-lg-3">
+                <button className="lg">Sign up</button>
               </Link>
-              <Link to="post">
-                <Button className="order-now  btn-danger" >+</Button>
+              <Link to="post" className="list-unstyled">
+                <button className="plus" >+ Sell</button>
               </Link>
             </Form>
           </Navbar.Collapse>

@@ -151,7 +151,12 @@ html {
 }
 
 /* Custom Image Styling */
-.custom-img {
+/* .custom-img {
     height: 300px;
     width: 300px;
+} */
+
+.about_icon img{
+    width: 200px;
+    height: 200px;
 }

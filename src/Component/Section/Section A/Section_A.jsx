@@ -8,6 +8,11 @@ import stone2 from '../../../images/Beryl.jpeg'
 import stone3 from '../../../images/citrine.jpeg'
 import stone4 from '../../../images/h3.png'
 import stone5 from '../../../images/try2.jfif'
+import stone6 from "../../../images/pic.jpg"
+import st from "../../../images/p.png"
+import st2 from "../../../images/-Apatite.jpg"
+import st3 from "../../../images/Agate.jpg"
+import st4 from "../../../images/Corindon.jpg"
 import {Link} from "react-router-dom"
 
 // mock data fteching like api dynomics
@@ -15,25 +20,25 @@ import {Link} from "react-router-dom"
   const MockData =[
     {
         id:1,
-        img:stone1,
+        img:st,
         title:"Jewellery Gems",
        
     },
     {
         id:2,
-        img:stone2,
+        img:st2,
         title:"Elizibene Stone",
        
     },
     {
         id:3,
-        img:stone3,
+        img:st3,
         title:"Shila Cunha",
        
     },
     {
         id:4,
-        img:stone4,
+        img:st4,
         title:"Color,Gemestone",
        
     },
@@ -173,7 +178,7 @@ const Section_A = () => {
                             <img 
                             src={cardData.img}
                              alt='icon' 
-                             className='img-fluid custom-img' />
+                             className='img-fluid' />
                         </div>
                         <h4>{cardData.title}</h4>
                         

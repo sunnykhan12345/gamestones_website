@@ -96,7 +96,7 @@ const Footer = () => {
           </Row>
         <section className=" container-fluid copy_right">
         <Row>
-            <Col>
+            <Col sm={12}>
               <div>
                 <ul className="list-unstyled text-center mb-0">
                   <li>
