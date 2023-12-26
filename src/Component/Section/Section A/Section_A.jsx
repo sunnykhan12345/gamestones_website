@@ -13,6 +13,12 @@ import st from "../../../images/p.png"
 import st2 from "../../../images/-Apatite.jpg"
 import st3 from "../../../images/Agate.jpg"
 import st4 from "../../../images/Corindon.jpg"
+// pic
+import one from "../../../images/one (2).jpg"
+import two from "../../../images/one (3).jpg"
+import three from "../../../images/one (4).jpg"
+import four from "../../../images/one (5).jpg"
+import five from "../../../images/one (6).jpg"
 import {Link} from "react-router-dom"
 
 // mock data fteching like api dynomics
@@ -20,31 +26,31 @@ import {Link} from "react-router-dom"
   const MockData =[
     {
         id:1,
-        img:st,
+        img:one,
         title:"Jewellery Gems",
        
     },
     {
         id:2,
-        img:st2,
+        img:two,
         title:"Elizibene Stone",
        
     },
     {
         id:3,
-        img:st3,
+        img:three,
         title:"Shila Cunha",
        
     },
     {
         id:4,
-        img:st4,
+        img:four,
         title:"Color,Gemestone",
        
     },
     {
         id:5,
-        img:stone5,
+        img:five,
         title:"Jewellery Gems",
        
     },
@@ -168,7 +174,7 @@ const Section_A = () => {
          <Container>
             <Row   className='justify-content-md-center pt-lg-4 pt-0'>{MockData.map((cardData,index)=>(
                 <Col data-aos="fade-up" lg={3} sm={6} md={4} className='mb-4 ' key={index}>
-                    <div className='card'>
+                    <div className=''>
                         {/* try start */}
 
                         {/*  */}
