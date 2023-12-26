@@ -172,7 +172,7 @@ const Section_A = () => {
             </Row>
             {/* \just for fun */}
             {/* second line */}
-            {/* add new thinh sana ullah */}
+    
             <section className='about_wrapper'>
          <Container>
             <Row   className='justify-content-md-center pt-lg-4 pt-0'>{MockData.map((cardData,index)=>(
