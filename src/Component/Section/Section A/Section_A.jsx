@@ -170,6 +170,8 @@ const Section_A = () => {
                     
                 </Col>
             </Row>
+            {/* \just for fun */}
+            {/* second line */}
             <section className='about_wrapper'>
          <Container>
             <Row   className='justify-content-md-center pt-lg-4 pt-0'>{MockData.map((cardData,index)=>(
