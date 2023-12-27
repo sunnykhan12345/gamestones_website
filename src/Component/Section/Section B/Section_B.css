@@ -107,3 +107,21 @@
     color: ;
     /* Color value is missing, please provide a color value */
 }
+
+
+@media(max-width:567px){
+    .menu_stone h2 {
+        font-size: 1.875rem;
+        color: var(--light-red);
+       /* background-color: gray; */
+    ;
+    }
+    .menu_stone #para {
+        color: var(--gray-color);
+        padding: 10px;
+        font-size: 1.0625rem;
+        /* background-color: red; */
+        /* color: white; */
+    }
+
+}
