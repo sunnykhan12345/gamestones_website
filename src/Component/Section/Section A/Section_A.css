@@ -48,6 +48,42 @@ html {
     font-weight: 500;
     text-transform: uppercase;
     line-height: 1.3;
+    transition: all 0.5s ease-in-out;
+}
+.about_section h4{
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+    padding: 5px 0;
+    opacity: 0.5;
+}
+.about_section h4:hover{
+    color: #e3000e;
+}
+
+
+.about_box img{
+  transition: all 0.5s ease-in-out;
+}
+.about_box .about_icon:hover img{
+     transform: scale(1.1);
+     border-radius: 50%;
+}
+
+
+@media(max-width:600px){
+    .about_section img{
+        margin: 10px auto;
+    }
+    .about_section h4{
+        transition: all 0.5s ease-in-out;
+       display: inline-block;
+        padding: 5px 0;
+        opacity: 0.5;
+    }
+    .about_section h2{
+        text-align: center !important;
+        margin: 10px auto;
+    }
 }
 
 /* Media Query for Mobile */
@@ -70,7 +106,7 @@ html {
 }
 
 .about_wrapper .card:hover {
-    background-color: #6f5e4d;
+    transform: scale(1.1) !important;
 }
 
 .about_wrapper .card:hover h4 {
@@ -83,7 +119,9 @@ html {
     letter-spacing: 0.5px;
     margin-top: 30px;
     margin-bottom: 20px;
-    color: black;
+    /* color: black; */
+    color: white;
+   
 }
 
 /* Services Section Styling */

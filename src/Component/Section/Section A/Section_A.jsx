@@ -3,6 +3,7 @@ import './Section_A.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import {Link} from "react-router-dom"
 import stone1 from '../../../images/Agate.jpg'
 import stone2 from '../../../images/Beryl.jpeg'
 import stone3 from '../../../images/citrine.jpeg'
@@ -19,7 +20,22 @@ import two from "../../../images/one (3).jpg"
 import three from "../../../images/one (4).jpg"
 import four from "../../../images/one (5).jpg"
 import five from "../../../images/one (6).jpg"
-import {Link} from "react-router-dom"
+import sex from "../../../images/gallery/one.jpeg"
+import seven from "../../../images/gallery/two.jpeg"
+import eight from "../../../images/gallery/three.jpeg"
+import nine from "../../../images/gallery/four.jpeg"
+import teen from "../../../images/gallery/five.jpeg"
+import eleven from "../../../images/gallery/eleven.jpeg"
+import twele from "../../../images/gallery/twele.jpeg"
+import thirteen from "../../../images/gallery/thirteen.jpeg"
+import fourteen from "../../../images/gallery/fourteen.jpeg"
+import fifteen from "../../../images/gallery/fifteen.jpeg"
+import sixteen from "../../../images/gallery/sixteen.jpeg"
+import seventeen from "../../../images/gallery/seventeen.jpeg"
+import eighteen from "../../../images/gallery/eighteen.jpeg"
+import ninteen from "../../../images/gallery/twentyone.jpeg"
+import tweenty from "../../../images/gallery/twenty.jpeg"
+
 
 // mock data fteching like api dynomics
 
@@ -56,74 +72,74 @@ import {Link} from "react-router-dom"
     },
     {
         id:6,
-        img:stone2,
+        img:sex,
         title:"Jewellery Gems",
        
     },
     {
         id:6,
-        img:stone3,
+        img:seven,
         title:"Jewellery Gems",
        
     },
     {
         id:7,
-        img:stone3,
+        img:eight,
         title:"Jewellery Gems",
        
     },
    
     {
         id:8,
-        img:stone1,
+        img:nine,
         title:"Jewellery Gems",
        
     },
     {
         id:1,
-        img:stone1,
+        img:teen,
         title:"Jewellery Gems",
        
     },
     {
         id:2,
-        img:stone2,
+        img:eleven,
         title:"Elizibene Stone",
        
     },
     {
         id:3,
-        img:stone3,
+        img:twele,
         title:"Jewellery  Stone",
        
     },
     {
         id:4,
-        img:stone3,
+        img:thirteen,
         title:"Jewellery Gems",
        
     },
     {
         id:5,
-        img:stone1,
+        img:fourteen,
         title:"Jewellery Gems",
        
     },
     {
         id:6,
-        img:stone2,
+        img:fifteen,
         title:"Jewellery Gems",
        
     },
     {
         id:6,
-        img:stone3,
+        img:sixteen,
         title:"Jewellery Gems",
        
     },
     {
         id:7,
-        img:stone3,
+        img:seventeen,
         title:"Jewellery Gems",
        
     },
@@ -131,19 +147,19 @@ import {Link} from "react-router-dom"
    
     {
         id:8,
-        img:stone2,
+        img:eighteen,
         title:"Jewellery Gems",
        
     },
     {
         id:9,
-        img:stone3,
+        img:ninteen,
         title:"Jewellery Gems",
        
     },
     {
         id:10,
-        img:stone3,
+        img:tweenty,
         title:"Jewellery Gems",
        
     },
@@ -170,13 +186,13 @@ const Section_A = () => {
                     
                 </Col>
             </Row>
-            {/* \just for fun */}
+           {/* \just for fun */}
             {/* second line */}
     
             <section className='about_wrapper'>
          <Container>
             <Row   className='justify-content-md-center pt-lg-4 pt-0'>{MockData.map((cardData,index)=>(
-                <Col data-aos="fade-up" lg={3} sm={6} md={4} className='mb-4 ' key={index}>
+                <Col data-aos="fade-up " lg={3} sm={6} md={4} className='mb-4 ' key={index} >
                     <div className=''>
                         {/* try start */}
 
