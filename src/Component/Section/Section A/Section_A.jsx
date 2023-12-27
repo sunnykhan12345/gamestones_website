@@ -180,9 +180,7 @@ const Section_A = () => {
             <Col lg={{span:8, offset:2}}  data-aos="fade-up">
                     <h2 >special stones</h2>
                     <p style={{ padding: '20px 30px', color:"gray", fontSize:'19px'}}>Have a question? You can reach out directly to your Stone Source Representative or you can contact us here and we’ll have someone get back to you soon.</p>
-                    <Link to="/" className='btn order-now btn-red'>
-                       STONE SOURCES
-                    </Link>
+                   
                     
                 </Col>
             </Row>

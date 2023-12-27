@@ -81,10 +81,11 @@ html {
     }
     .about_section img{
         margin: 10px auto;
+        width: 270px !important;
     }
     .about_section h4{
         transition: all 0.5s ease-in-out;
-       display: inline-block;
+       /* display: inline-block; */
         padding: 5px 0;
         opacity: 0.5;
     }
