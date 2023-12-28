@@ -54,7 +54,7 @@ const Footer = () => {
               <div className="text-center">
                 <h5>Order Now</h5>
                 <p>peshawar forest bazar kpk</p>
-                <p className="calling">03085342445</p>
+                <p className="calling"></p>
               </div>
             </Col>
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">

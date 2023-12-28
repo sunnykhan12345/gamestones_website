@@ -14,12 +14,13 @@ const Login = () => {
 
       const handleSubmit = (e) =>{
           e.preventDefault();
-          Axios.post("https://jsonplaceholder.typicode.com/posts", {
-            username,
-            email,
-            password
+          Axios.post("https://642343da77e7062b3e2ee702.mockapi.io/formdata", {
+            username:username,
+            email:email,
+            password:password
         }).then((res)=>{
               console.log(res)
+              alert(res)
 
         })
       }
@@ -35,32 +36,18 @@ const Login = () => {
                   <form action="">
                     <h1>Login</h1>
                  
-                    <input type="text" value={username} onChange={(e) => setUserName(e.target.value)} placeholder="UserName" name="username" />
+                    <input type="text" value={username} onChange={(e) => setUserName(e.target.value)} placeholder="Enter userName" name="username" className='input'  />
                     <br />
                     
-                    <input type="email"value={email} onChange={(e) => setEmail(e.target.value)}  placeholder="Email" name="email" />
+                    <input type="email"value={email} onChange={(e) => setEmail(e.target.value)}  placeholder="Enter your email" name="email" className='input'  />
                     <br />
                     
-                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="password" name="pass" />
+                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Enter your password" name="pass" className='input' />
                     <br />
-                 
-                    <div className="flex-end">
-                      <a href="#">Forget Password</a>
-                    </div>
-                    <div className="login-btn">
-                      <a href="#" type="submit">Login</a>
-                    </div>
-                    <p className="text">Or Login Using</p>
 
-                    <div className="alt-login">
-                      <div className="facebook">
-                        <AiFillFacebook />
-                      </div>
-                      <div className="google">
-                        <AiFillGoogleSquare />
-                      </div>
+                    <div className="d-grid mt-3">
+                    <button type="submit" className="btn btn-primary">submit</button>
                     </div>
-                    <button type="submit">submit</button>
                   </form>
                 </div>
                 

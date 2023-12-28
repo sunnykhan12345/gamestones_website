@@ -29,15 +29,16 @@ h1 {
 
 }
 
-.card .card-body input {
+.card .card-body .input {
     width: 298px;
     height: 32px;
     margin: 1rem;
+    padding-left: 1.25rem;
 
 
 }
 
-.card .card-body input :focus {
+.card .card-body .input :focus {
     background-color: var(--brown-color);
 }
 

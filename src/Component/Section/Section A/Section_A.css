@@ -55,6 +55,7 @@ html {
     background-color: black;
     padding: 5px 0;
     opacity: 0.5;
+    width: 200px;
 }
 .about_section h4:hover{
     color: #e3000e;
@@ -88,6 +89,8 @@ html {
        /* display: inline-block; */
         padding: 5px 0;
         opacity: 0.5;
+        width: 260px;
+        margin: auto;
     }
     .about_section h2{
         text-align: center !important;

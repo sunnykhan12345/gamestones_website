@@ -110,6 +110,11 @@ form .serch {
 
 /* Responsive Design for Search Form */
 @media(max-width:500px) {
+    .nn{
+        /* background-color: red !important;
+        display: block;
+        flex-direction: column; */
+    }
     form .serch {
         width: 10rem;
         height: 40px;
